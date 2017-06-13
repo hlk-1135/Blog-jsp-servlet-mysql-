@@ -1,0 +1,141 @@
+@charset "gb2312";
+.aboutcon{
+	color:#696969;
+}
+h1.t_nav { 
+	border-bottom: #F1F1F1 1px solid;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 40px; 
+    height: 40px;
+}
+h1.t_nav a{
+	width: 100px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	float:left;
+}
+h1.t_nav span{
+	float:right;
+	color:#999;
+}
+.n1 {
+	background: #5EA51B;
+}
+.n2{
+	background: #8BBF5D;
+}
+.about{
+	width:740px;
+	overflow: hidden;
+	background: url(../images/r_line.jpg) repeat-y right;
+	line-height:22px;
+}
+.about h2{
+	font-size:22px;
+	font-family: 'Architects Daughter', cursive;
+	margin-bottom:20px;
+}
+.about p{
+	margin-bottom:20px;
+}
+.about_c,.about{
+	margin:20px 0;
+}
+.about ul{
+	width:710px;
+}
+.about_c{
+	padding:10px 0 0 10px;
+	color:#999;
+	line-height:26px;
+}
+.about_c img{
+	margin:5px 0;
+}
+.about_c span{
+	color:#19A566;
+}
+.about_me {
+	height: 340px;
+	width: 260px;
+	background: url(../images/aboutphoto.jpg);
+}
+a.blog_link{ 
+	color:#1CA368;
+	margin:0 20px;
+}
+a img{
+	border:none;
+}
+.box{
+	width:500px;
+     height:264px;
+     margin:50px auto;
+     overflow:hidden;
+     position: relative;}
+
+.box ul{
+	width:5000px;
+    position:absolute;
+}
+.box ul li{
+	float:left;
+    width:500px;
+}
+.box ol{
+	position:absolute;
+    right:6px;
+    bottom:7px;
+}
+.box ol li{
+	width:25px;
+    height:10px;
+    font-size:0;
+    background:#fff;
+    filter:alpha(opacity=60);
+    opacity:0.6;
+    float:left;
+    margin-right:5px;
+    display:inline;
+    cursor:pointer;
+}
+
+.box ol li.on{
+	filter:alpha(opacity=100);
+    opacity:1;
+}
+.box p{
+	position:absolute;
+    height:25px;
+    width:500px;
+    left:0;
+    bottom:0;
+    background:#000;
+    filter:alpha(opacity=50);
+    opacity:0.5;
+}
+
+.box span{
+	display:block;
+    position:absolute;
+  	width:45px;
+  	height:100px;
+  	filter:alpha(opacity=30);
+  	opacity:0.3;
+  	top:90px;
+  	background:url(../images/sprite.png) no-repeat;
+  	cursor:pointer;
+}   
+.box .next{
+	right:0;
+    background-position:right top;
+}  
+.boxs{
+	width:200px;
+	height:150px;
+	background:red;
+	position:absolute;
+	display:none;
+}

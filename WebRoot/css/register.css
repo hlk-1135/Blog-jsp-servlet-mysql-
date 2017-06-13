@@ -1,0 +1,149 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-size:12px;
+	color:#FFC;
+	background: url(../images/back.png);
+}
+.register {
+	width: 960px;
+	height: 713px;
+	margin:0 auto;
+	text-align: left;
+	position:relative;
+}
+.header {
+	width: 960px;
+	height: 80px;
+	float: left;
+	background: white;
+}
+.logo_picture {
+	height: 80px;
+	width: 950px;
+	float: left;
+	margin-left: 10px;
+}
+.introduce {
+	width: 960px;
+	font-size: 14px;
+    line-height: 36px;
+    font-weight: normal;
+    color:white;
+    background: deepskyblue;
+    text-indent: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.continer{
+	width: 960px;
+	height:580px;
+}
+.continer_left {
+	width:600px;
+	height:580px;
+    background: white;
+    float:left;
+}
+.left_main {
+	height: 500px;
+	width: 450px;
+	float: left;
+	margin-left: 90px;
+	margin-top: 35px;
+	background: lightskyblue;
+}
+.continer_right {
+	width:360px;
+	height:580px;
+	background:url(../images/continer_right.png);
+	float: left;
+}
+.continer_main {
+	margin-left: 3px;
+}
+#fieldset {
+	border:#fff 0px solid;
+	height: 30px;
+}
+.br {
+	display: none;
+}
+strong{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+#fieldset label {
+	float: left;
+	clear: left;
+	margin: 20px 20px 0 0;
+	width:95px;
+	height: 28px;
+	text-align: right;
+	font-size: 18px;
+	font-family: "ËÎÌו";
+	color: black;
+	text-shadow: 0px 1px 0px #f2f2f2;
+}
+span {
+	font-size:10px;
+	font-family: "ËÎÌו";
+	color: black;
+}
+.txt-impt{
+	color: red;
+}
+.txt-tips {
+	color: black;
+}
+select {
+	height:25px;
+}
+#str1 {
+	font-size: 15px;
+	font-weight: bold;
+}
+#error {
+	color: red;
+}
+#address {
+	margin-top: 18px;
+}
+#last {
+	margin-left: 40px;
+	width:80px;
+}
+input {
+	margin: 15px 5px 0 0;
+	width: 187px;
+	height: 22px;
+}
+input[type=submit]{
+	width: 210px;
+	height: 30px;
+	padding:5px 5px 0 20px;
+	margin-top:20px;
+	margin-left:30px;
+	font-family: "ËÎÌו",sans-serif;
+	font-size: 16px;
+	color: #a1b2c3;
+}
+.textfield {
+	border: groove #fff 1px solid;
+	width:187px;
+	height:22px;
+	color:black;
+	margin-top: 20px;
+}
+textarea {
+	border: #fff 0px solid;
+	padding:4px 8px;
+	margin:3px;
+	height:165px;
+	width:190px;
+	color:#FF00FF;
+	font:1.1em verdana,"arial, helvetica, sans-serif";
+}

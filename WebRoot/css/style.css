@@ -1,0 +1,86 @@
+@charset "gb2312";
+.newblog { 
+	width: 740px; 
+	overflow: hidden; 
+	margin: 10px 0;
+}
+.newblog h2 { 
+	color: #333; 
+	font-size: 14px;
+	 margin: 20px 0 10px 0; 
+	 clear:both;
+}
+p.dateview { 
+	margin-bottom: 10px;
+}
+p.dateview span { 
+	margin: 0 10px 0 0;
+}
+p.dateview span a { 
+	color: #63B120;
+}
+.newblog figure { 
+	float: left; 
+}
+.newblog figure img { 
+	width: 170px; 
+	border: #EAE6E7 1px solid;
+	padding: 4px; 
+}
+.nlist { 
+	width: 530px; 
+	float: left; 
+	margin: 0 0 0 10px;
+	 line-height: 1.9; 
+}
+.rnav1 { 
+	background: #FE5187;
+}
+.rnav2 { 
+	background: #339967;
+}
+.rnav3 { 
+	background: #FF8151;
+}
+.rnav4 {
+	 background: #66CC9A;
+}
+.page { 
+	margin: 20px 0; 
+	text-align: center; 
+	width: 100%; 
+	overflow: hidden; 
+}
+.page a b { 
+	color: #999; 
+}
+.page>b, .page a { 
+	margin: 0 2px; 
+	height: 26px; 
+	line-height: 26px; 
+	border-radius: 50%; 
+	width: 26px; 
+	text-align: center; 
+	display: inline-block;
+}
+.page a { 
+	margin: 0 2px; 
+	height: 26px; 
+	line-height: 26px; 
+	border-radius: 50%; 
+	width: 26px; 
+	text-align: center; 
+	display: inline-block 
+}
+.page>b, .page a:hover { 
+	background: #333; color: #FFF; 
+}
+.page a { 
+	color: #F33; 
+	border: #999 1px solid; 
+}
+.about_me {
+	height: 340px;
+	width: 260px;
+	background: url(../images/aboutphoto.jpg);
+}
